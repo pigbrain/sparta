@@ -1,0 +1,14 @@
+
+ul - bullet point (ul-li 항상 같이 다님
+h1,h2,h3 폰트크기
+hr 줄바꾸기 (줄생김)
+br 줄바꾸기 (줄안생김)
+개인사진 넣기는 ./사진이름
+  
+.mytitle mytitle앞 점으로 넣으면 개별적으로 지정하고 싶을때  
+
+색을 그라디에이션 넣고 싶을 때
+html color gradiant 구글링해서 찾을 수 있음
+textarea하면 텍스트크기 조절 가능
+
+bootstrap template도 찾아서 사용 가능
