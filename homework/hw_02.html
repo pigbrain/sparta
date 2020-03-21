@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--webpage title-->
+    <title>Work Later, Drink Beer! </title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--구글폰트-->
+    <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+
+    <!-- JQuery를 import -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- style -->
+    <style type="text/css">
+        * {
+            font-family: 'East Sea Dokdo', cursive;
+        }
+
+        .wrap {
+            width: 600px;
+            margin: auto;
+        }
+
+        .font1 {
+            font-size: 35px;
+        }
+
+        .font2 {
+            font-size: 30px;
+            color: blueviolet;
+        }
+
+        .btn {
+            width: 150px;
+        }
+
+        .col-sm-3 {
+            margin: 0 auto;
+        }
+
+        .orders {
+            margin-top: 50px;
+        }
+    </style>
+     
+    <script>
+    function order() {
+        let name = $('#input_name').val();
+        let number = $('#input_number').val();
+        let address = $('#input_address').val();
+        let phone1 = $('#input_phone1').val();
+        let phone2 = $('#input_phone2').val();
+        let phone3 = $('#input_phone3').val();
+        
+        if (name == '') {
+            alert('이름을 입력해 주세요.');
+            $('#input_name').focus();
+            return
+        } else if (number == ''){
+            alert('수량을 선택해 주세요.');
+            $('#input_number').focus();
+            return
+        } else if (address == ''){
+            alert('주소를 입력해 주세요.');
+            $('#input_address').focus();
+            return
+        } else if (phone1 == ''){
+            alert('휴대폰 앞자리를 입력해 주세요.');
+            $('#input_phone1').focus();
+            return
+        } else if (phone2 == ''){
+            alert('두번째칸 입력을 잊으셨네요?');
+            $('#input_phone2').focus();
+            return
+        } else if (phone3 == ''){
+            alert('마지막까지 정확하게 입력해 주세요^^');
+            $('#input_phone3').focus();
+            return
+        } 
+
+         let temp_html = '<tr>\
+         <td>'+ name +'</td>\
+         <td>'+ number + '세트' +'</td>\
+         <td>'+ address +'</td>\
+         <td>'+ phone1 + '-' + phone2 + '-' + phone3 +'</td>\
+         </tr>';
+         $('#orders-box').append(temp_html);
+         alert('주문 완료! 감사합니다!');
+    }
+    
+     </script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./2.jpg" alt="Second slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br>
+        <span class="font1"> 수제맥주 Set (Lager + Porter 각 1병) </span> &nbsp &nbsp
+        <span class="font2"> Price: 20000원/set </span>
+        <h4>*씨서론 심사위원 평가 "올해의 맥주" 수상. 현재 주문 폭주 및 수량 부족으로&nbsp<span class="badge badge-info">인당 2세트</span><span>로 주문을
+                제한하고 있습니다.</span></h4>
+        <h4>*세트 외 개별 구매 불가</h4>
+
+
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">주문자 성함:</span>
+            </div>
+            <input type="text" class="form-control" id="input_name" placeholder="홍길동" aria-label="Large"
+                aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <br>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수 량:</label>
+            </div>
+            <select class="custom-select" id="input_number">
+                <option selected value = "">선택</option>
+                <option value="1">1 set</option>
+                <option value="2">2 set</option>
+            </select>
+        </div>
+        <br>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-lg">주 소:</span>
+            </div>
+            <input type="text" class="form-control" id="input_address" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <br>
+        <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="">전화번호</span>
+            </div>
+            <input type="text" class="form-control" id="input_phone1" placeholder="010">
+            <input type="text" class="form-control" id="input_phone2" placeholder="1234">
+            <input type="text" class="form-control" id="input_phone3" placeholder="5678">
+        </div>
+        <br>
+        <div class="col-sm-3">
+            <button onclick = "order()" type = "button" class="btn btn-success">주문하기</button>
+        </div>
+        <div class="orders">
+        <table class = "table"> <thead> <tr> <th scope = "col">이름</th> 
+        <th scope="col">수량</th> <th scope="col">주소</th> <th scope="col">연락처</th></tr></thead>
+        <tbody id = "orders-box"> <tr> </tr>
+        </tbody> </table>
+        </div>
+        </div>
+</body>
+
+</html>
