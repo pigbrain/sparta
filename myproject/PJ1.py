@@ -6,12 +6,14 @@ import os
 def avg(l):
     return sum(l) / len(l)
 
+
 def max_search(v):
     k = avg(v['maximum'])
-    v = abs(avg(v['minimum']))
-    return max(k, v)
+    a = abs(avg(v['minimum']))
+    return max(k, a)
 
-#def avg_list(p):
+
+# def avg_list(p):
 #    return sum(p) / len(p)
 total_average_dict = {}
 
@@ -19,7 +21,15 @@ directory = "CW1/"
 data = os.listdir(directory)
 # f = open("C:/Users/WIN/Desktop/sparta/myproject/CW1/EQ1.txt", 'r')
 
-for dataname in data:
+data.sort()
+file_list = []
+for d in data:
+    file_list.append((int(d[2:-4]), d))
+
+file_list.sort()
+
+for sorted_file in file_list:
+    dataname = sorted_file[1]
     if ".txt" not in dataname:
         continue
     f = open(directory + dataname)
@@ -96,14 +106,20 @@ for dataname in data:
         else:
             total_average_dict[h] = []
             total_average_dict[h].append(max_search_value)
-#        def avg_list(h):
-#            return sum(total_average_dict(h))/len(h)
+    #        def avg_list(h):
+    #            return sum(total_average_dict(h))/len(h)
 
-#    print(process_list)
+    #    print(process_list)
     process_list.sort(reverse=True)
     print(process_list)
 #    print("===========")
 #    print(avg_list)
 
+print("===========")
+floor_average_list = []
+for (k, v) in total_average_dict.items():
+    floor_average_list.append((k, avg(v)))
 
+floor_average_list.sort(reverse=True)
 
+print(floor_average_list)
