@@ -3,16 +3,13 @@ from datetime import datetime
 
 import openpyxl
 
-
 def avg(l):
     return sum(l) / len(l)
-
 
 def max_search(v):
     k = avg(v['maximum'])
     a = abs(avg(v['minimum']))
     return max(k, a)
-
 
 xls_column_code = {
     'HEIGHT': 'D',
@@ -34,7 +31,7 @@ xls_column_code = {
 }
 
 xls_input_file = './data/Wall Shear Force.xlsx'
-xls_ouput_file = 'Wall Shear Force_output.xlsx'
+xls_output_file = 'Wall Shear Force_output.xlsx'
 xls_column_start_row = 4
 
 xls_workbook = openpyxl.load_workbook(filename=xls_input_file, read_only=False, data_only=False)
@@ -165,6 +162,6 @@ for root in root_list:
 
         start_row = start_row + 1
 
-output_file_name = './data/' + datetime.now().strftime('%Y%m%d%H%M%S') + '_' + xls_ouput_file
+output_file_name = './data/' + datetime.now().strftime('%Y%m%d %H%M') + '_' + xls_output_file
 
 xls_workbook.save(filename=output_file_name)
