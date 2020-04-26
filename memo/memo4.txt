@@ -1,0 +1,30 @@
+3/29
+
+find()는 전체 찾기
+find_one() 한개만 찾기
+ 
+user = db.users.find_one({'name':'bobby'},{'_id':0})
+                                           -> id를 빼고 print하라
+
+user = db.users.find_one({'name':'bobby'},{'_id':1})
+                                           -> id만 print하라
+
+127.0.0.1:5000 = localhost:5000
+
+매번 새로운 프로젝트 시작 시 install 해야할 것
+setting-project-project interpreter
+1. requests
+2. beautifulsoup4
+3. pymongo
+4. flask
+
+flask 문법을 쓰려면 첫구절에 문법을 써놔야하는데
+만일 없으면 밑에서 그 문법부분이 빨간색 선이 그어짐, 
+그럴때 그 문법에 갖다대고 alt + Enter를 하면 문법이 자동으로 추가된다
+
+아니면 처음부터 flask의 문법을 전부 import하고 싶을 때는 
+from flask import * 하면 됨
+
+변수 위에 ctrl + B 누르면 변수가 사용되는 곳을 찾아줌
+
+mongodb 시작 방법: Windows키 + R -> cmd -> mongod (매번 이렇게 설정해줘야 함) 

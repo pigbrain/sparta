@@ -17,7 +17,7 @@ for list in lists:
     # list 안에 a 가 있으면,
     a_tag = list.select_one('td.info > a.title.ellipsis')
     if a_tag is not None:
-        title = a_tag.text
-        artist = list.select_one('a.artist.ellipsis').text
+        title = a_tag.text.strip()
+        artist = list.select_one('a.artist.ellipsis').text.strip()
         print(number,title,artist)
         number += 1
