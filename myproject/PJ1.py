@@ -3,16 +3,17 @@ import os
 
 # import openpyxl
 
-
 def avg(l):
     return sum(l) / len(l)
-
 
 def max_search(v):
     k = avg(v['maximum'])
     v = abs(avg(v['minimum']))
     return max(k, v)
 
+#def avg_list(p):
+#    return sum(p) / len(p)
+total_average_dict = {}
 
 directory = "CW1/"
 data = os.listdir(directory)
@@ -89,6 +90,20 @@ for dataname in data:
         # print(h, max_search(v))
         process_list.append((h, max_search(v)))
 
-    print(process_list)
+        max_search_value = max_search(v)
+        if h in total_average_dict:
+            total_average_dict[h].append(max_search_value)
+        else:
+            total_average_dict[h] = []
+            total_average_dict[h].append(max_search_value)
+#        def avg_list(h):
+#            return sum(total_average_dict(h))/len(h)
+
+#    print(process_list)
     process_list.sort(reverse=True)
     print(process_list)
+#    print("===========")
+#    print(avg_list)
+
+
+
