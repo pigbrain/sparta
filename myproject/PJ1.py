@@ -106,20 +106,16 @@ for sorted_file in file_list:
         else:
             total_average_dict[h] = []
             total_average_dict[h].append(max_search_value)
-    #        def avg_list(h):
-    #            return sum(total_average_dict(h))/len(h)
 
     #    print(process_list)
     process_list.sort(reverse=True)
     print(process_list)
-#    print("===========")
-#    print(avg_list)
 
-print("===========")
-floor_average_list = []
+print("Average")
+average_list = []
 for (k, v) in total_average_dict.items():
-    floor_average_list.append((k, avg(v)))
+    average_list.append((k, avg(v)))
 
-floor_average_list.sort(reverse=True)
+average_list.sort(reverse=True)
 
-print(floor_average_list)
+print(average_list)
