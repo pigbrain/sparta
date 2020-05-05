@@ -1,0 +1,63 @@
+EQ2
+PERFORM STRUCTURE SECTION RESULT TIME HISTORIES
+Structure = DGB102IE_CP  (DGB102_Inelastic(CP))
+Analysis Series = EQ1,2,3  (EQ1,2,3)
+Load Case =, [3] = [1] + EQ2
+Units =, kN, m
+Column 1 =, time (sec)
+Column, 2, = section no., 1, name =, B4F                                     
+Column, 3, = section no., 2, name =, B3F                                     
+Column, 4, = section no., 3, name =, B2F                                     
+Column, 5, = section no., 4, name =, B1F                                     
+Column, 6, = section no., 5, name =, 1F                                      
+Column, 7, = section no., 6, name =, 2F                                      
+Column, 8, = section no., 7, name =, PIT                                     
+Column, 9, = section no., 8, name =, 3F                                      
+Column, 10, = section no., 9, name =, 4F                                      
+Column, 11, = section no., 10, name =, 5F                                      
+Column, 12, = section no., 11, name =, 6F                                      
+Column, 13, = section no., 12, name =, 7F                                      
+Column, 14, = section no., 13, name =, 8F                                      
+Column, 15, = section no., 14, name =, 9F                                      
+Column, 16, = section no., 15, name =, 10F                                     
+Column, 17, = section no., 16, name =, 11F                                     
+Column, 18, = section no., 17, name =, 12F                                     
+Column, 19, = section no., 18, name =, 13F                                     
+Column, 20, = section no., 19, name =, 14F                                     
+Column, 21, = section no., 20, name =, 15F                                     
+Column, 22, = section no., 21, name =, 16F                                     
+Column, 23, = section no., 22, name =, 17F                                     
+Column, 24, = section no., 23, name =, 18F                                     
+Column, 25, = section no., 24, name =, 19F                                     
+Column, 26, = section no., 25, name =, 20F                                     
+Column, 27, = section no., 26, name =, 21F                                     
+Column, 28, = section no., 27, name =, 22F                                     
+Column, 29, = section no., 28, name =, 23F                                     
+Column, 30, = section no., 29, name =, 24F                                     
+Column, 31, = section no., 30, name =, 25F                                     
+Column, 32, = section no., 31, name =, 26F                                     
+Column, 33, = section no., 32, name =, 27F                                     
+Column, 34, = section no., 33, name =, 28F                                     
+Column, 35, = section no., 34, name =, 29F                                     
+Column, 36, = section no., 35, name =, 30F                                     
+Column, 37, = section no., 36, name =, 31F                                     
+Column, 38, = section no., 37, name =, 32F                                     
+Column, 39, = section no., 38, name =, 33F                                     
+Column, 40, = section no., 39, name =, 34F                                     
+Column, 41, = section no., 40, name =, 35F                                     
+Column, 42, = section no., 41, name =, 36F                                     
+Column, 43, = section no., 42, name =, 37F                                     
+Column, 44, = section no., 43, name =, 38F                                     
+Column, 45, = section no., 44, name =, 39F                                     
+Column, 46, = section no., 45, name =, 40F                                     
+Column, 47, = section no., 46, name =, 41F                                     
+Column, 48, = section no., 47, name =, 42F                                     
+Column, 49, = section no., 48, name =, 43F                                     
+Column, 50, = section no., 49, name =, 44F                                     
+Column, 51, = section no., 50, name =, RF                                      
+Column, 52, = section no., 51, name =, PH1F                                    
+Column, 53, = section no., 52, name =, PH2F                                    
+Column, 54, = section no., 53, name =, PH3F                                    
+Column, 55, = section no., 54, name =, PH4F                                    
+Maximum, 95147, 93064, 90480, 87869, 86619, 79892, 54185, 52680, 50846, 50249, 50372, 50152, 49549, 48670, 47429, 46036, 44680, 43251, 41385, 39021, 36762, 34434, 31770, 28673, 25538, 24541, 24692, 24688, 24467, 24187, 24334, 26763, 29436, 31618, 33244, 34337, 34962, 35134, 34904, 34282, 33207, 31710, 29799, 28164, 26481, 24174, 21093, 17355, 13362, 9434.3, 7930.9, 5842.5, 3709.2, 1760.6
+Minimum,-87877,-85464,-84021,-87104,-89800,-90470,-61102,-59018,-56998,-54898,-52461,-49720,-46766,-43937,-40858,-37576,-35454,-34700,-33698,-32477,-31182,-30333,-29250,-27905,-26340,-24603,-23513,-23667,-25152,-26833,-28295,-29796,-31605,-33155,-34457,-35369,-35916,-36222,-36241,-35970,-35376,-34398,-33026,-31268,-29076,-26375,-22927,-18996,-15193,-12073,-10618,-8505.5,-5406.2,-2654.8

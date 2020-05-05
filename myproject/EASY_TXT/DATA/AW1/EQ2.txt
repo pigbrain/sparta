@@ -1,0 +1,142 @@
+EQ2
+PERFORM ELEMENT RESULT TIME HISTORIES
+Structure = DGB102IE_CP  (DGB102_Inelastic(CP))
+Analysis Series = EQ1,2,3  (EQ1,2,3)
+Load Case =, [3] = [1] + EQ2
+Component type =, Axial Strain Gage (2-node)                
+Sequence number =, 1
+Result type =, Strain                              
+Units =, kN, m
+Element group number =, 5, group name =, AG
+Column 1 =, time (sec) or max/min indicator
+Column, 2, = element number, 1, in group with node I = node, 1076, at,  32.185, -5.7625e-7,  16.7
+Column, 3, = element number, 2, in group with node I = node, 7382, at,  32.185, -5.7625e-7,  19.7
+Column, 4, = element number, 3, in group with node I = node, 7636, at,  32.185, -5.7625e-7,  22.6
+Column, 5, = element number, 4, in group with node I = node, 7860, at,  32.185, -5.7625e-7,  25.5
+Column, 6, = element number, 5, in group with node I = node, 8084, at,  32.185, -5.7625e-7,  28.4
+Column, 7, = element number, 6, in group with node I = node, 8308, at,  32.185, -5.7625e-7,  31.3
+Column, 8, = element number, 7, in group with node I = node, 8532, at,  32.185, -5.7625e-7,  34.2
+Column, 9, = element number, 8, in group with node I = node, 8756, at,  32.185, -5.7625e-7,  37.1
+Column, 10, = element number, 9, in group with node I = node, 8980, at,  32.185, -5.7625e-7,  40
+Column, 11, = element number, 10, in group with node I = node, 9204, at,  32.185, -5.7625e-7,  42.9
+Column, 12, = element number, 11, in group with node I = node, 9428, at,  32.185, -5.7625e-7,  45.8
+Column, 13, = element number, 12, in group with node I = node, 9652, at,  32.185, -5.7625e-7,  48.7
+Column, 14, = element number, 13, in group with node I = node, 9876, at,  32.185, -5.7625e-7,  51.6
+Column, 15, = element number, 14, in group with node I = node, 10100, at,  32.185, -5.7625e-7,  54.5
+Column, 16, = element number, 15, in group with node I = node, 10324, at,  32.185, -5.7625e-7,  57.4
+Column, 17, = element number, 16, in group with node I = node, 10548, at,  32.185, -5.7625e-7,  60.3
+Column, 18, = element number, 17, in group with node I = node, 10772, at,  32.185, -5.7625e-7,  63.2
+Column, 19, = element number, 18, in group with node I = node, 10996, at,  32.185, -5.7625e-7,  66.1
+Column, 20, = element number, 19, in group with node I = node, 11220, at,  32.185, -5.7625e-7,  69
+Column, 21, = element number, 20, in group with node I = node, 11444, at,  32.185, -5.7625e-7,  71.9
+Column, 22, = element number, 21, in group with node I = node, 11668, at,  32.185, -5.7625e-7,  74.8
+Column, 23, = element number, 22, in group with node I = node, 11892, at,  32.185, -5.7625e-7,  77.7
+Column, 24, = element number, 23, in group with node I = node, 12116, at,  32.185, -5.7625e-7,  80.6
+Column, 25, = element number, 24, in group with node I = node, 12340, at,  32.185, -5.7625e-7,  83.5
+Column, 26, = element number, 25, in group with node I = node, 12564, at,  32.185, -5.7625e-7,  86.4
+Column, 27, = element number, 26, in group with node I = node, 12788, at,  32.185, -5.7625e-7,  89.3
+Column, 28, = element number, 27, in group with node I = node, 13012, at,  32.185, -5.7625e-7,  92.2
+Column, 29, = element number, 28, in group with node I = node, 13236, at,  32.185, -5.7625e-7,  95.1
+Column, 30, = element number, 29, in group with node I = node, 13460, at,  32.185, -5.7625e-7,  98
+Column, 31, = element number, 30, in group with node I = node, 13684, at,  32.185, -5.7625e-7,  100.9
+Column, 32, = element number, 31, in group with node I = node, 13908, at,  32.185, -5.7625e-7,  103.8
+Column, 33, = element number, 32, in group with node I = node, 14132, at,  32.185, -5.7625e-7,  106.7
+Column, 34, = element number, 33, in group with node I = node, 14356, at,  32.185, -5.7625e-7,  109.6
+Column, 35, = element number, 34, in group with node I = node, 14580, at,  32.185, -5.7625e-7,  112.5
+Column, 36, = element number, 35, in group with node I = node, 14804, at,  32.185, -5.7625e-7,  115.4
+Column, 37, = element number, 36, in group with node I = node, 15028, at,  32.185, -5.7625e-7,  118.3
+Column, 38, = element number, 37, in group with node I = node, 15252, at,  32.185, -5.7625e-7,  121.2
+Column, 39, = element number, 38, in group with node I = node, 15476, at,  32.185, -5.7625e-7,  124.1
+Column, 40, = element number, 39, in group with node I = node, 15700, at,  32.185, -5.7625e-7,  127
+Column, 41, = element number, 40, in group with node I = node, 15924, at,  32.185, -5.7625e-7,  129.9
+Column, 42, = element number, 41, in group with node I = node, 16148, at,  32.185, -5.7625e-7,  132.8
+Column, 43, = element number, 42, in group with node I = node, 16372, at,  32.185, -5.7625e-7,  136.4
+Column, 44, = element number, 43, in group with node I = node, 16596, at,  32.185, -5.7625e-7,  139.3
+Column, 45, = element number, 44, in group with node I = node, 1070, at,  33.907, -1.7217,  16.7
+Column, 46, = element number, 45, in group with node I = node, 1334, at,  33.907, -1.7217,  19.7
+Column, 47, = element number, 46, in group with node I = node, 1434, at,  33.907, -1.7217,  22.6
+Column, 48, = element number, 47, in group with node I = node, 1560, at,  33.907, -1.7217,  25.5
+Column, 49, = element number, 48, in group with node I = node, 1686, at,  33.907, -1.7217,  28.4
+Column, 50, = element number, 49, in group with node I = node, 1812, at,  33.907, -1.7217,  31.3
+Column, 51, = element number, 50, in group with node I = node, 1938, at,  33.907, -1.7217,  34.2
+Column, 52, = element number, 51, in group with node I = node, 2064, at,  33.907, -1.7217,  37.1
+Column, 53, = element number, 52, in group with node I = node, 2190, at,  33.907, -1.7217,  40
+Column, 54, = element number, 53, in group with node I = node, 2316, at,  33.907, -1.7217,  42.9
+Column, 55, = element number, 54, in group with node I = node, 2442, at,  33.907, -1.7217,  45.8
+Column, 56, = element number, 55, in group with node I = node, 2568, at,  33.907, -1.7217,  48.7
+Column, 57, = element number, 56, in group with node I = node, 2694, at,  33.907, -1.7217,  51.6
+Column, 58, = element number, 57, in group with node I = node, 2820, at,  33.907, -1.7217,  54.5
+Column, 59, = element number, 58, in group with node I = node, 2946, at,  33.907, -1.7217,  57.4
+Column, 60, = element number, 59, in group with node I = node, 3072, at,  33.907, -1.7217,  60.3
+Column, 61, = element number, 60, in group with node I = node, 3198, at,  33.907, -1.7217,  63.2
+Column, 62, = element number, 61, in group with node I = node, 3324, at,  33.907, -1.7217,  66.1
+Column, 63, = element number, 62, in group with node I = node, 3450, at,  33.907, -1.7217,  69
+Column, 64, = element number, 63, in group with node I = node, 3576, at,  33.907, -1.7217,  71.9
+Column, 65, = element number, 64, in group with node I = node, 3702, at,  33.907, -1.7217,  74.8
+Column, 66, = element number, 65, in group with node I = node, 3828, at,  33.907, -1.7217,  77.7
+Column, 67, = element number, 66, in group with node I = node, 3954, at,  33.907, -1.7217,  80.6
+Column, 68, = element number, 67, in group with node I = node, 4080, at,  33.907, -1.7217,  83.5
+Column, 69, = element number, 68, in group with node I = node, 4206, at,  33.907, -1.7217,  86.4
+Column, 70, = element number, 69, in group with node I = node, 4332, at,  33.907, -1.7217,  89.3
+Column, 71, = element number, 70, in group with node I = node, 4458, at,  33.907, -1.7217,  92.2
+Column, 72, = element number, 71, in group with node I = node, 4584, at,  33.907, -1.7217,  95.1
+Column, 73, = element number, 72, in group with node I = node, 4710, at,  33.907, -1.7217,  98
+Column, 74, = element number, 73, in group with node I = node, 4836, at,  33.907, -1.7217,  100.9
+Column, 75, = element number, 74, in group with node I = node, 4962, at,  33.907, -1.7217,  103.8
+Column, 76, = element number, 75, in group with node I = node, 5088, at,  33.907, -1.7217,  106.7
+Column, 77, = element number, 76, in group with node I = node, 5214, at,  33.907, -1.7217,  109.6
+Column, 78, = element number, 77, in group with node I = node, 5340, at,  33.907, -1.7217,  112.5
+Column, 79, = element number, 78, in group with node I = node, 5466, at,  33.907, -1.7217,  115.4
+Column, 80, = element number, 79, in group with node I = node, 5592, at,  33.907, -1.7217,  118.3
+Column, 81, = element number, 80, in group with node I = node, 5718, at,  33.907, -1.7217,  121.2
+Column, 82, = element number, 81, in group with node I = node, 5844, at,  33.907, -1.7217,  124.1
+Column, 83, = element number, 82, in group with node I = node, 5970, at,  33.907, -1.7217,  127
+Column, 84, = element number, 83, in group with node I = node, 6096, at,  33.907, -1.7217,  129.9
+Column, 85, = element number, 84, in group with node I = node, 6222, at,  33.907, -1.7217,  132.8
+Column, 86, = element number, 85, in group with node I = node, 6348, at,  33.907, -1.7217,  136.4
+Column, 87, = element number, 86, in group with node I = node, 6474, at,  33.907, -1.7217,  139.3
+Column, 88, = element number, 87, in group with node I = node, 1088, at,  33.907,  1.7217,  16.7
+Column, 89, = element number, 88, in group with node I = node, 1343, at,  33.907,  1.7217,  19.7
+Column, 90, = element number, 89, in group with node I = node, 1443, at,  33.907,  1.7217,  22.6
+Column, 91, = element number, 90, in group with node I = node, 1569, at,  33.907,  1.7217,  25.5
+Column, 92, = element number, 91, in group with node I = node, 1695, at,  33.907,  1.7217,  28.4
+Column, 93, = element number, 92, in group with node I = node, 1821, at,  33.907,  1.7217,  31.3
+Column, 94, = element number, 93, in group with node I = node, 1947, at,  33.907,  1.7217,  34.2
+Column, 95, = element number, 94, in group with node I = node, 2073, at,  33.907,  1.7217,  37.1
+Column, 96, = element number, 95, in group with node I = node, 2199, at,  33.907,  1.7217,  40
+Column, 97, = element number, 96, in group with node I = node, 2325, at,  33.907,  1.7217,  42.9
+Column, 98, = element number, 97, in group with node I = node, 2451, at,  33.907,  1.7217,  45.8
+Column, 99, = element number, 98, in group with node I = node, 2577, at,  33.907,  1.7217,  48.7
+Column, 100, = element number, 99, in group with node I = node, 2703, at,  33.907,  1.7217,  51.6
+Column, 101, = element number, 100, in group with node I = node, 2829, at,  33.907,  1.7217,  54.5
+Column, 102, = element number, 101, in group with node I = node, 2955, at,  33.907,  1.7217,  57.4
+Column, 103, = element number, 102, in group with node I = node, 3081, at,  33.907,  1.7217,  60.3
+Column, 104, = element number, 103, in group with node I = node, 3207, at,  33.907,  1.7217,  63.2
+Column, 105, = element number, 104, in group with node I = node, 3333, at,  33.907,  1.7217,  66.1
+Column, 106, = element number, 105, in group with node I = node, 3459, at,  33.907,  1.7217,  69
+Column, 107, = element number, 106, in group with node I = node, 3585, at,  33.907,  1.7217,  71.9
+Column, 108, = element number, 107, in group with node I = node, 3711, at,  33.907,  1.7217,  74.8
+Column, 109, = element number, 108, in group with node I = node, 3837, at,  33.907,  1.7217,  77.7
+Column, 110, = element number, 109, in group with node I = node, 3963, at,  33.907,  1.7217,  80.6
+Column, 111, = element number, 110, in group with node I = node, 4089, at,  33.907,  1.7217,  83.5
+Column, 112, = element number, 111, in group with node I = node, 4215, at,  33.907,  1.7217,  86.4
+Column, 113, = element number, 112, in group with node I = node, 4341, at,  33.907,  1.7217,  89.3
+Column, 114, = element number, 113, in group with node I = node, 4467, at,  33.907,  1.7217,  92.2
+Column, 115, = element number, 114, in group with node I = node, 4593, at,  33.907,  1.7217,  95.1
+Column, 116, = element number, 115, in group with node I = node, 4719, at,  33.907,  1.7217,  98
+Column, 117, = element number, 116, in group with node I = node, 4845, at,  33.907,  1.7217,  100.9
+Column, 118, = element number, 117, in group with node I = node, 4971, at,  33.907,  1.7217,  103.8
+Column, 119, = element number, 118, in group with node I = node, 5097, at,  33.907,  1.7217,  106.7
+Column, 120, = element number, 119, in group with node I = node, 5223, at,  33.907,  1.7217,  109.6
+Column, 121, = element number, 120, in group with node I = node, 5349, at,  33.907,  1.7217,  112.5
+Column, 122, = element number, 121, in group with node I = node, 5475, at,  33.907,  1.7217,  115.4
+Column, 123, = element number, 122, in group with node I = node, 5601, at,  33.907,  1.7217,  118.3
+Column, 124, = element number, 123, in group with node I = node, 5727, at,  33.907,  1.7217,  121.2
+Column, 125, = element number, 124, in group with node I = node, 5853, at,  33.907,  1.7217,  124.1
+Column, 126, = element number, 125, in group with node I = node, 5979, at,  33.907,  1.7217,  127
+Column, 127, = element number, 126, in group with node I = node, 6105, at,  33.907,  1.7217,  129.9
+Column, 128, = element number, 127, in group with node I = node, 6231, at,  33.907,  1.7217,  132.8
+Column, 129, = element number, 128, in group with node I = node, 6357, at,  33.907,  1.7217,  136.4
+Column, 130, = element number, 129, in group with node I = node, 6483, at,  33.907,  1.7217,  139.3
+Maximum, 2.5456e-4, 2.528e-4, 1.4966e-4, 1.136e-4, 1.1832e-4, 9.8142e-5, 8.2838e-5, 6.9355e-5, 1.0485e-4, 1.2632e-4, 1.4679e-4, 1.5081e-4, 1.5795e-4, 1.5477e-4, 1.5084e-4, 1.4376e-4, 1.5097e-4, 1.6557e-4, 1.7757e-4, 1.7924e-4, 2.0163e-4, 2.1092e-4, 2.1825e-4, 2.1495e-4, 2.0326e-4, 1.8548e-4, 1.7952e-4, 1.667e-4, 1.493e-4, 1.2702e-4, 1.1146e-4, 1.0078e-4, 1.0466e-4, 1.0666e-4, 1.0622e-4, 9.405e-5, 8.0769e-5, 6.248e-5, 4.6232e-5, 3.9442e-5, 2.245e-5, 2.521e-5, 2.2051e-7, 2.8479e-4, 5.5013e-4, 9.3397e-5, 9.6849e-5, 3.7987e-5, 3.6424e-5, 2.7642e-5, 2.4893e-5, 7.6659e-5, 9.2827e-5, 1.2254e-4, 1.291e-4, 1.3589e-4, 1.3755e-4, 1.3448e-4, 1.2878e-4, 1.1861e-4, 1.246e-4, 1.3893e-4, 1.3641e-4, 1.6694e-4, 1.9521e-4, 2.3076e-4, 2.4028e-4, 2.3988e-4, 2.2452e-4, 2.0421e-4, 1.799e-4, 1.6263e-4, 1.4942e-4, 1.3796e-4, 1.2039e-4, 1.1227e-4, 1.009e-4, 9.7405e-5, 7.7418e-5, 6.4438e-5, 3.7774e-5, 2.83e-5, 3.1692e-5, 3.1574e-5, 4.7012e-5, 6.7585e-5, 3.1596e-4, 3.1051e-4, 9.7296e-5, 6.8945e-5, 6.3449e-5, 4.737e-5, 3.3414e-5, 2.0168e-5, 2.6299e-5, 3.5596e-5, 4.1398e-5, 4.9472e-5, 5.6671e-5, 6.5744e-5, 7.3059e-5, 8.1754e-5, 9.6835e-5, 1.0267e-4, 1.15e-4, 1.1276e-4, 1.4173e-4, 1.4085e-4, 1.4836e-4, 1.4511e-4, 1.3035e-4, 1.3283e-4, 1.3255e-4, 1.2818e-4, 1.1691e-4, 1.042e-4, 8.9184e-5, 7.7059e-5, 7.5595e-5, 7.4877e-5, 7.6247e-5, 7.3031e-5, 7.8973e-5, 7.3363e-5, 7.8749e-5, 5.7289e-5, 5.8172e-5, 5.0235e-5, 1.2211e-4
+Minimum,-2.848e-4,-3.3317e-4,-3.477e-4,-3.5315e-4,-3.5842e-4,-3.6252e-4,-3.6589e-4,-3.6784e-4,-3.8339e-4,-3.8247e-4,-3.8063e-4,-3.777e-4,-3.7397e-4,-3.6975e-4,-3.6521e-4,-3.7633e-4,-3.6932e-4,-3.6133e-4,-3.5269e-4,-3.4318e-4,-3.3245e-4,-3.2073e-4,-3.1805e-4,-3.0447e-4,-2.8988e-4,-2.7447e-4,-2.5806e-4,-2.4113e-4,-2.2352e-4,-2.1799e-4,-2.0788e-4,-1.9597e-4,-1.8245e-4,-1.6745e-4,-1.5141e-4,-1.342e-4,-1.1675e-4,-9.8897e-5,-8.0909e-5,-6.3353e-5,-4.4204e-5,-2.5455e-5,-1.0396e-5,-4.126e-4,-3.8252e-4,-3.5333e-4,-3.3632e-4,-3.2383e-4,-3.1812e-4,-3.1355e-4,-3.096e-4,-3.2599e-4,-3.3081e-4,-3.3397e-4,-3.3571e-4,-3.3566e-4,-3.3454e-4,-3.3207e-4,-3.4332e-4,-3.3818e-4,-3.3089e-4,-3.2306e-4,-3.1479e-4,-3.045e-4,-2.9357e-4,-2.907e-4,-2.7878e-4,-2.668e-4,-2.6116e-4,-2.5248e-4,-2.4109e-4,-2.2663e-4,-2.188e-4,-2.0961e-4,-1.9713e-4,-1.8099e-4,-1.6286e-4,-1.4713e-4,-1.3246e-4,-1.1526e-4,-1.0329e-4,-9.2613e-5,-8.1434e-5,-7.257e-5,-6.5102e-5,-4.1472e-5,-4.5104e-4,-4.0351e-4,-3.7094e-4,-3.6127e-4,-3.5112e-4,-3.4435e-4,-3.3684e-4,-3.299e-4,-3.3453e-4,-3.2852e-4,-3.2383e-4,-3.1986e-4,-3.1595e-4,-3.1123e-4,-3.0627e-4,-3.1433e-4,-3.0746e-4,-3.0001e-4,-2.9152e-4,-2.8169e-4,-2.7046e-4,-2.5933e-4,-2.5488e-4,-2.4698e-4,-2.3966e-4,-2.3075e-4,-2.1999e-4,-2.0753e-4,-1.9429e-4,-1.8767e-4,-1.7617e-4,-1.64e-4,-1.512e-4,-1.3824e-4,-1.2546e-4,-1.1295e-4,-1.0146e-4,-9.0714e-5,-7.9951e-5,-7.1474e-5,-6.8459e-5,-6.3151e-5,-4.09e-5
