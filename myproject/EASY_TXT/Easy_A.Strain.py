@@ -3,19 +3,24 @@ from datetime import datetime
 
 import openpyxl
 
+
 def max_search(v):
     k = max(v['maximum'])
     return k
+
 
 def min_search(v):
     a = min(v['minimum'])
     return a
 
+
 def max_avg(l):
-    return sum(k) / 14
+    return sum(l) / 14
+
 
 def min_avg(l):
-   return sum(a) / 14
+    return sum(l) / 14
+
 
 xls_column_code = {
     'HEIGHT': 'C',
@@ -140,23 +145,29 @@ for root in root_list:
 
             height_group_dict[height_score]['maximum'].append(maximum)
             height_group_dict[height_score]['minimum'].append(minimum)
-#    print(zipped_list)
+        #    print(zipped_list)
         process_list = []
         for (h, v) in height_group_dict.items():
-            process_list.append((h,  max_search(v), min_search(v)))
+            process_list.append((h, max_search(v), min_search(v)))
 
             max_search_value = max_search(v)
             if h in total_dict:
-                total_dict[h].append(max_search_value)
+                total_dict[h]['max'].append(max_search_value)
             else:
-                total_dict[h] = []
-                total_dict[h].append(max_search_value)
+                total_dict[h] = {
+                    'max': [],
+                    'min': [],
+                }
+                total_dict[h]['max'].append(max_search_value)
             min_search_value = min_search(v)
             if h in total_dict:
-                total_dict[h].append(min_search_value)
+                total_dict[h]['min'].append(min_search_value)
             else:
-                total_dict[h] = []
-            total_dict[h].append(min_search_value)
+                total_dict[h] = {
+                    'max': [],
+                    'min': [],
+                }
+                total_dict[h]['min'].append(min_search_value)
 
         process_list.sort(reverse=True)
         print(process_list)
@@ -172,7 +183,7 @@ for root in root_list:
 
     floor_average_list = []
     for (k, l) in total_dict.items():
-        floor_average_list.append((k, max_avg(l), min_avg(l)))
+        floor_average_list.append((k, max_avg(l['max']), min_avg(l['min'])))
     floor_average_list.sort(reverse=True)
 
     print(floor_average_list)
